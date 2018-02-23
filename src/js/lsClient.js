@@ -17,7 +17,7 @@
 //////////////// Connect to current host (or localhost) and configure a StatusWidget
 define(["LightstreamerClient","StatusWidget"],function(LightstreamerClient,StatusWidget) {
     var protocolToUse = document.location.protocol != "file:" ? document.location.protocol : "http:";
-    var portToUse = document.location.protocol == "https:" ? "443" : "8080";
+    var portToUse = document.location.protocol == "https:" ? "443" : "8181";
     // in accordance with the port configuration in the factory lightstreamer_conf.xml
     // (although the https port is not open by the factory lightstreamer_conf.xml)
     
